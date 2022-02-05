@@ -9,7 +9,7 @@ from pymongo import MongoClient
 def get_database():
 
     # Provide the mongodb atlas url to connect python to mongodb using pymongo
-    CONNECTION_STRING = "mongodb+srv://sam5thibault:81758@cluster0.l6txl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    CONNECTION_STRING = "mongodb+srv://curefeed:curefeed@cluster0.c6ty8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     client = MongoClient(CONNECTION_STRING)
     # where 'qhacks' is the database name
     return client["qhacks"]
