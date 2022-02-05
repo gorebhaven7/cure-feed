@@ -1,91 +1,91 @@
 import { createSlice } from "@reduxjs/toolkit";
 import image1 from "../assets/image1.jpeg";
 import image2 from "../assets/image2.jpeg";
-import image3 from "../assets/image3.jpeg";
-import image4 from "../assets/image4.jpeg";
-import image5 from "../assets/image5.jpeg";
-import image6 from "../assets/image6.jpeg";
+import image3 from "../assets/celery_juice.jpg";
+import image4 from "../assets/image4.jpg";
+import image5 from "../assets/chickenpizza.jpg";
+import image6 from "../assets/garlic_bread.jpg";
 import data from "../App";
 import dishModal from "../components/dishModal";
 const initialState = {
   receipeDb: [
     {
-      name: "Shahi Paneer",
+      name: "Celery Juice",
       image: image3,
-      description: "HI",
+      description: "Best Celery Juice Ever!!!!",
     },
     {
-      name: "new word",
+      name: "Spinach Pasta",
       image: image4,
-      description: "HI",
+      description: "Spniach Pasta",
     },
     {
-      name: "new word",
-      image: image4,
-      description: "HI",
+      name: "Chicken Pizza",
+      image: image5,
+      description: "Chicken Pizza",
     },
     {
-      name: "new word",
-      image: image4,
-      description: "HI",
+      name: "Garlic Bread",
+      image: image6,
+      description: "Garlic Bread",
     },
     {
-      name: "new word",
-      image: image4,
-      description: "HI",
+      name: "Spicy Tomato Soup",
+      image: image2,
+      description: "Spicy Tomato",
     },
     {
-      name: "new word",
-      image: image4,
-      description: "HI",
+      name: "Greek Salad",
+      image: image1,
+      description: "Greek Salad",
     },
     {
-      name: "new word",
+      name: "Spicy Roasted Tomato Sauce",
       image: image4,
-      description: "HI",
+      description: "Spicy Roasted Tomato Sauce",
     },
     {
-      name: "new word",
+      name: "Arepas",
       image: image4,
-      description: "HI",
+      description: "Arepas",
     },
     {
-      name: "new word",
+      name: "Spiced Eggplant Indian Style",
       image: image4,
-      description: "HI",
+      description: "Spiced Eggplant Indian Style",
     },
     {
-      name: "new word",
+      name: "Indian Style Macoroni",
       image: image4,
-      description: "HI",
+      description: "Indian Style Macoroni",
     },
   ],
   menu: [
     {
-      name: "name1",
+      name: "Celery Juice",
       image: image3,
     },
     {
-      name: "new word",
+      name: "Spinach Pasta",
       image: image4,
     },
     {
-      name: "GOOfhgD FOOD",
+      name: "Chicken Pizza",
       image: image5,
     },
     {
-      name: "GOOD FOOD",
+      name: "Blueberry Smoothies",
       image: image6,
     },
   ],
   cookingReceipe: {
-    name: "new word",
+    name: "Celery Juice",
     image: image3,
-    instructions: "",
+    instructions: "1. Wash the celeries with tap water 2. Blend/Grind it in the blender or mixer 3. Strain it 4. Drink it without adding any water",
   },
-  inventory: [],
-  ingredients: ["potato", "salt", "pepper", "eggs", "milk", "sprouts"],
-  cookingReceipe: { ingredients: "", steps: "" },
+  inventory: ["Celery", "Water","Strawberries"],
+  ingredients: ["Celery","Water","Blueberries","Banana","Milk","Coffee","Sugar","Wheat","Pasta","Spinach"],
+  cookingReceipe: { ingredients: ["Celery","Water"], steps: ["1. Wash the celeries with tap water", "2. Blend/Grind it in the blender or mixer", "3. Strain it", "4. Drink it without adding any water"] },
 };
 
 const receipeSlice = createSlice({
