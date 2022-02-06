@@ -27,8 +27,8 @@ function Home() {
       <div className="home-container">
         <div className="greeting-container">
           <div className="greeting-text">
-            <h1 className="home-title">Welcome to Cook Hack</h1>
-            <h3>Explore new receipes and share with others your new cooking skills!</h3>
+            <h1 className="home-title">CureFeed - Your Personalized Recipes</h1>
+            <h3>Explore new receipes with your ingredients</h3>
           </div>
           <div className="cta-container">
             <NavLink to="/menu" className="start-btn">
@@ -40,35 +40,10 @@ function Home() {
           </div>
         </div>
         <div className="image-slider-container">
-          {receipe.length > 0 && (
-            <div className="featured-dishes" id="featured">
-              <Carousel
-                showThumbs={false}
-                showIndicators={false}
-                emulateTouch={true}
-                autoPlay={false}
-                infiniteLoop={true}
-              >
-                {receipe.map((dish, i) => (
-                  <div key={i} className="dish-container" ref={featuredRef}>
-                    <div className="dish-image-container">
-                      <img src={dish.image} alt="" className="dish-image" />
-                      <p className="dish-name">{dish.name}</p>
+        <div className="dish-image-container">
+                      <img src="src/assets/review-background.jpg" alt="" className="dish-image" />
+                      {/* <p className="dish-name">{dish.name}</p> */}
                     </div>
-                    <div className="dish-cook-cta">
-                    <NavLink to="/cook" className="menu-cook-btn"
-              onClick={() => {
-                readyCook(dish); //Make sure to add more params if needed
-              }}
-            >
-              Cook Now
-            </NavLink>
-                    </div>
-                  </div>
-                ))}
-              </Carousel>
-            </div>
-          )}
         </div>
         <div id="featured" className="featured-dishes-container"></div>
       </div>

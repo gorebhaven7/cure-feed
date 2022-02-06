@@ -77,7 +77,7 @@ function Review({isAuth}) {
         })}
   </div>
     <button className="Review-createpost" onClick={navPost}> 
-        Post Review
+        Post Recipe
     </button>
   </div>
   </>

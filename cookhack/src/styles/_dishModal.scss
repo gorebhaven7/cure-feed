@@ -5,7 +5,7 @@
   left: 1rem;
   right: 1rem;
   background: rgba(255, 255, 255, 0.96);
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1rem 0 #ffc13d;
   backdrop-filter: blur(50px);
   z-index: 5;
   display: grid;
@@ -23,7 +23,7 @@
   width: 100%;
   object-fit: cover;
   height: auto;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: #ffc13d 0px 3px 8px;
 }
 .modal-dish-info {
   @include c-jc-s-ai;
@@ -48,7 +48,7 @@
     background: #900;
     padding: 1rem 2rem;
     margin-top: 5rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: #ffc13d 0px 3px 8px;
     cursor: pointer;
     color:rgb(0, 0, 0);
   }

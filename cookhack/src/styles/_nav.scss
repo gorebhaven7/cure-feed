@@ -26,11 +26,11 @@
     .nav-link {
       //   @include c-jc-c-ai;
       margin-left: 3.5rem;
-      color: black;
+      color: #ffc13d;
       &:after {
         display: block;
         content: "";
-        border-bottom: solid 2px black;
+        border-bottom: solid 2px #ffc13d;
         transform: scaleX(0);
         transition: transform 250ms ease-in-out;
         margin-top: 0.3rem;
@@ -59,10 +59,12 @@
     margin-left: 4rem;
     transition: all 0.4s;
     cursor: pointer;
+    color: #ffc13d;
   }
   .login-icon:hover {
     border: none;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     transform: scale(1.1);
+    color: #ffc13d;
   }
 }

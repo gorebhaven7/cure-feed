@@ -1,4 +1,4 @@
-import Logo from "../assets/cookhack.png";
+import Logo from "../assets/cookhack.jpeg";
 import React, {useState} from "react";
 import AccIcon from "../assets/profile.jpg";
 import { NavLink, Link, useNavigate } from "react-router-dom";
@@ -30,12 +30,12 @@ function Nav() {
           <img src={Logo} alt="logo-name" className="logo-name" />
         </div>
         <div className="nav-links-container">
-          <div className="nav-links">
+          <div className="nav-links" >
             <NavLink exact className="nav-link" to="/">
               Home
             </NavLink>
             <NavLink className="nav-link" to="/review">
-              Reviews
+              Recipes
             </NavLink>
             <NavLink className="nav-link" to="/explore">
               Explore
