@@ -2,9 +2,16 @@ import { createSlice } from "@reduxjs/toolkit";
 import image1 from "../assets/image1.jpeg";
 import image2 from "../assets/image2.jpeg";
 import image3 from "../assets/celery_juice.jpg";
-import image4 from "../assets/image4.jpg";
+import image4 from "../assets/spinach_pasta.jpg";
 import image5 from "../assets/chickenpizza.jpg";
 import image6 from "../assets/garlic_bread.jpg";
+import image7 from "../assets/tomato_soup.jpg";
+import image8 from "../assets/greek_salad.jpg";
+import image9 from "../assets/arepas.jpg";
+import image10 from "../assets/gulab_jamun.jpg";
+import image11 from "../assets/eggplant.jpg";
+import image12 from "../assets/macaroni.jpg";
+
 import data from "../App";
 import dishModal from "../components/dishModal";
 const initialState = {
@@ -31,32 +38,32 @@ const initialState = {
     },
     {
       name: "Spicy Tomato Soup",
-      image: image2,
+      image: image7,
       description: "Spicy Tomato",
     },
     {
       name: "Greek Salad",
-      image: image1,
+      image: image8,
       description: "Greek Salad",
     },
     {
-      name: "Spicy Roasted Tomato Sauce",
-      image: image4,
+      name: "Gulabjamun",
+      image: image10,
       description: "Spicy Roasted Tomato Sauce",
     },
     {
       name: "Arepas",
-      image: image4,
+      image: image9,
       description: "Arepas",
     },
     {
       name: "Spiced Eggplant Indian Style",
-      image: image4,
+      image: image11,
       description: "Spiced Eggplant Indian Style",
     },
     {
       name: "Indian Style Macoroni",
-      image: image4,
+      image: image12,
       description: "Indian Style Macoroni",
     },
   ],
